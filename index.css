@@ -506,6 +506,10 @@ body {
 
 }
 
+.nav-bar:hover .storageCircleOutline {
+  box-shadow: none
+}
+
 .nav-bar:hover .storageCircleOutline .gb-100-gb-tiny{
   opacity: 0;
 }
@@ -1564,6 +1568,7 @@ body {
   padding: 1.3rem 0;
   width: 90%;
   box-sizing: border-box;
+  box-shadow: inset 0rem -3rem 0 #57acdc;
 }
 
 .storageCircleOutline>div {
@@ -1614,7 +1619,7 @@ body {
   transition: opacity 0.3s ease;
   font-weight: 500;
   font-size: 0.9rem;
-  color: var(--droppex-color-stylegray, #939393);
+  color: white;
   position: absolute;
   height: 100%;
   display: flex;
