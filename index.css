@@ -10,6 +10,8 @@
     display: flex;
     flex-direction: row;
     background: #1E1E1E;
+    height: 100vh;
+    width: 100vw;
 }
 
 .select-options-no-option-selected {
@@ -1158,39 +1160,41 @@
 }
 
 .container-85 {
-    border-radius: 0.6rem;
-    background: rgba(139, 139, 139, 0.06);
-    position: relative;
-    margin-bottom: 0.9rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 0.9rem 0 0.9rem 0.8rem;
-    width: 67.6rem;
-    box-sizing: border-box;
+  border-radius: 0.6rem;
+  background: rgba(139, 139, 139, 0.06);
+  position: relative;
+  margin-bottom: 0.9rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.9rem 3.2rem 0.9rem 0.8rem;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .container-86 {
-    border-radius: 0.6rem;
-    background: rgba(139, 139, 139, 0.06);
-    position: relative;
-    margin-bottom: 0.9rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 0.9rem 3.2rem 0.9rem 0.8rem;
-    width: 67.6rem;
-    box-sizing: border-box;
+  border-radius: 0.6rem;
+  background: rgba(139, 139, 139, 0.06);
+  position: relative;
+  margin-bottom: 0.9rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.9rem 3.2rem 0.9rem 0.8rem;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .container-87 {
-    margin: 0 0.8rem 0.9rem 0.8rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-self: flex-start;
-    width: 59.5rem;
-    box-sizing: border-box;
+  justify-content: space-between;
+  align-self: flex-start;
+  position: relative;
+  margin-bottom: 0.9rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0rem 3.2rem 0rem 0.8rem;
+  width: 100%;
 }
 
 .container-88 {
@@ -1214,13 +1218,15 @@
 }
 
 .container-91 {
-    margin: 0 0.8rem 0.9rem 0.8rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-self: flex-start;
-    width: 59.5rem;
-    box-sizing: border-box;
+  justify-content: space-between;
+  align-self: flex-start;
+  position: relative;
+  margin-bottom: 0.9rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0rem 3.2rem 0rem 0.8rem;
+  width: 100%;
 }
 
 .container-92 {
@@ -1303,12 +1309,16 @@
 }
 
 .container-102 {
-    margin: 0 3.2rem 0.9rem 0.8rem;
+    
+    justify-content: space-between;
+    align-self: flex-start;
+    position: relative;
+    margin-bottom: 0.9rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 63.7rem;
-    box-sizing: border-box;
+    padding: 0rem 3.2rem 0rem 0.8rem;
+    width: 100%;
 }
 
 .container-103 {
@@ -1324,13 +1334,15 @@
 }
 
 .container-105 {
-    margin: 0 0.8rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-self: flex-start;
-    width: 59.5rem;
-    box-sizing: border-box;
+  justify-content: space-between;
+  align-self: flex-start;
+  position: relative;
+  margin-bottom: 0.9rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0rem 3.2rem 0rem 0.8rem;
+  width: 100%;
 }
 
 .container-106 {
@@ -1346,16 +1358,16 @@
 }
 
 .container-108 {
-    border-radius: 0.6rem;
-    background: rgba(139, 139, 139, 0.06);
-    position: relative;
-    margin-bottom: 0.9rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 0.9rem 3.2rem 0.9rem 0.8rem;
-    width: 67.6rem;
-    box-sizing: border-box;
+  border-radius: 0.6rem;
+  background: rgba(139, 139, 139, 0.06);
+  position: relative;
+  margin-bottom: 0.9rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.9rem 3.2rem 0.9rem 0.8rem;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .container-109 {
@@ -1389,16 +1401,16 @@
 }
 
 .container-113 {
-    border-radius: 0.6rem;
-    background: rgba(139, 139, 139, 0.06);
-    position: relative;
-    margin-bottom: 0.9rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 0.9rem 2rem 0.9rem 0.8rem;
-    width: 67.6rem;
-    box-sizing: border-box;
+  border-radius: 0.6rem;
+  background: rgba(139, 139, 139, 0.06);
+  position: relative;
+  margin-bottom: 0.9rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.9rem 3.2rem 0.9rem 0.8rem;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .container-114 {
@@ -1416,12 +1428,15 @@
 }
 
 .container-116 {
-    margin: 0 2rem 0.9rem 0.8rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 64.8rem;
-    box-sizing: border-box;
+  justify-content: space-between;
+  align-self: flex-start;
+  position: relative;
+  margin-bottom: 0.9rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0rem 3.2rem 0rem 0.8rem;
+  width: 100%;
 }
 
 .video-mp-4 {
@@ -2218,7 +2233,7 @@
     flex-grow: 1;
     height: fit-content;
     overflow: auto;
-    height: 500px;
+    height: calc(100vh - 20rem);
     padding-right: 1rem;
   
 }
