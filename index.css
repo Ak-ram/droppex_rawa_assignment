@@ -459,6 +459,7 @@ body {
   {
   opacity: 0;
   position: absolute;
+  transition: opacity 0.3s ease;
 }
 
 .nav-bar:hover {
@@ -466,18 +467,19 @@ body {
 }
 
 .nav-bar:hover .new-folder,
-.nav-bar:hover>.logo>.droppex
+.nav-bar:hover>.logo>.droppex,
+.nav-bar:hover .home
 /* .nav-bar:hover  > .upload-button > .new-folder */
 
-/* .nav-bar:hover .home,
+/* 
 .nav-bar:hover .storage-text { */
   {
   /* display: inline-block; */
   opacity: 1;
   position: relative;
+  width: fit-content;
 }
 
-.nav-bar:hover .home,
 .nav-bar:hover .storage-text {
   display: inline-block;
 
@@ -502,7 +504,7 @@ body {
 }
 
 .nav-bar>.logo {
-  margin: 0 0rem 2.5rem 0;
+  margin: 0 0rem 1.5rem 0;
 }
 
 .nav-bar>.logo>.iconbox {
@@ -1410,7 +1412,7 @@ body {
 
 
 .logo {
-  margin: 0 2.2rem 1.5rem 0;
+  margin: 0 2.2rem 2.5rem 0;
   display: flex;
   flex-direction: row;
   width: fit-content;
@@ -1472,7 +1474,10 @@ body {
   font-weight: 600;
   font-size: 1rem;
   color: var(--primary-blue, #57ACDC);
-  display: none;
+  opacity: 0;
+  width: 0;
+  transition: opacity .3s ease;
+  white-space: nowrap;
 }
 
 .rectangle {
@@ -1594,6 +1599,8 @@ body {
   align-items: center;
   width: 5rem;
   justify-content: center;
+  transition: all 0.3s ease;
+
 }
 
 .new-folder {
@@ -1604,6 +1611,8 @@ body {
   font-size: 1rem;
   color: #FFFFFF;
   white-space: nowrap;
+  transition: opacity 0.3s ease;
+
 }
 
 
