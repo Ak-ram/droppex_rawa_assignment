@@ -82,7 +82,6 @@ body {
 /* Select folder or file text */
 .select-folder-or-file-to-see-options {
   margin: 0.9rem 0.6rem 0.9rem 0;
-  width: 45rem;
   font-family: var(--heading-12-font-family, 'Poppins');
   font-weight: var(--heading-12-font-weight, 400);
   font-size: var(--heading-12-font-size, 0.8rem);
@@ -470,7 +469,7 @@ body {
   justify-content: space-between;
   padding: 0.8rem 1rem 0.8rem 0.9rem;
   /* width: 39.2rem; */
-  flex-grow: 1;
+  /* flex-grow: 1; */
   box-sizing: border-box;
 }
 
@@ -886,7 +885,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 69.1rem;
+  /* width: 69.1rem; */
   box-sizing: border-box;
 }
 
@@ -936,7 +935,6 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 69rem;
   box-sizing: border-box;
 }
 
@@ -1338,7 +1336,7 @@ body {
 
 
 
-.group-1000003753 {
+.logo {
   margin: 0 2.2rem 2.5rem 0;
   display: flex;
   flex-direction: row;
@@ -1741,4 +1739,27 @@ body {
   flex-direction: row;
   justify-content: space-between;
   padding: 0.9rem 1rem 0.9rem 0.8rem;
+}
+
+
+@media (min-width: 500px){
+  .nav-bar {
+    background: #121212;
+    position: relative;
+    margin-right: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.5rem 0 18.4rem 0;
+    width: 10rem;
+  }
+  .nav-bar > .logo > .droppex
+   /* .nav-bar > .upload-button > .new-folder  */
+  {
+    display: none;
+  }
+  .nav-bar > .upload-button {
+    margin-inline: 0;
+  }
+  
 }
