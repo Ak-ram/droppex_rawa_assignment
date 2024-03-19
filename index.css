@@ -469,8 +469,8 @@ body {
 .nav-bar:hover .new-folder,
 .nav-bar:hover>.logo>.droppex,
 .nav-bar:hover .home
-/* .nav-bar:hover  > .upload-button > .new-folder */
 
+/* .nav-bar:hover  > .upload-button > .new-folder */
 /* 
 .nav-bar:hover .storage-text { */
   {
@@ -479,7 +479,9 @@ body {
   position: relative;
   width: fit-content;
 }
-
+.nav-bar:hover .storageCircleOutline>div>img{
+  opacity: 1;
+}
 .nav-bar:hover .storage-text {
   display: inline-block;
 
@@ -498,6 +500,16 @@ body {
   align-items: end;
   justify-content: center;
 }
+
+.nav-bar:hover .storage .gb-100-gb-tiny{
+  opacity: 0;
+}
+.nav-bar:hover .storage .gb-100-gb{
+  opacity: 1;
+}
+
+
+
 
 .nav-bar:hover .sidebarItem {
   width: 7rem;
@@ -1567,6 +1579,8 @@ body {
   translate: -50% 0;
   width: 7.9rem;
   height: 7.9rem;
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }
 
 .b {
@@ -1581,11 +1595,31 @@ body {
 .gb-100-gb {
   margin-left: 0.3rem;
   overflow-wrap: break-word;
-  font-family: 'Poppins';
   font-weight: 500;
   font-size: 0.9rem;
   color: var(--droppex-color-stylegray, #939393);
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }
+
+.gb-100-gb-tiny{
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: var(--droppex-color-stylegray, #939393);
+  position: absolute;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0 2rem 0;
+}
+
+
+
+
 
 .upload-button {
 
