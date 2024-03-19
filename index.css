@@ -448,9 +448,43 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 2.5rem 0 18.4rem 0;
-  width: 15.6rem;
+  width: 5rem;
   box-sizing: border-box;
+  transition: width .2s ease;
 }
+
+.nav-bar > .logo > .droppex
+ /* .nav-bar > .upload-button > .new-folder  */
+{
+  display: none;
+}
+.nav-bar:hover{
+  width: 16rem;
+}
+.nav-bar:hover .new-folder, .nav-bar:hover > .logo > .droppex, .nav-bar:hover .home{
+  display: inline-block;
+}
+.nav-bar:hover .sidebarItem{
+  width: 7rem;
+}
+  .nav-bar > .logo{
+    margin: 0 0rem 2.5rem 0;
+  }
+  .nav-bar > .logo > .iconbox{
+    width: 2.3rem;
+    height: 2.3rem;
+  }
+  .nav-bar:hover  .upload-button {
+    margin-inline: 0;
+    border-radius: 3.1rem;
+    width: fit-content;
+  }
+  
+
+
+
+
+
 
 .group-1000004468 {
   margin-bottom: 1.2rem;
@@ -1358,13 +1392,13 @@ body {
   height: 1.7rem;
 }
 
-.group-1000004343 {
+.sidebarItem {
   margin-bottom: 1.9rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-self: flex-start;
-  width: 8.3rem;
+  width: 4rem;
   box-sizing: border-box;
 }
 
@@ -1396,6 +1430,7 @@ body {
   font-weight: 600;
   font-size: 1rem;
   color: var(--primary-blue, #57ACDC);
+  display: none;
 }
 
 .rectangle-300 {
@@ -1526,21 +1561,22 @@ body {
 }
 
 .upload-button {
-  border-radius: 3.1rem;
+
   background: #57ACDC;
   position: relative;
-  margin: 0 2.5rem 1.9rem 0;
+  margin: 0 0rem 1.9rem 0;
   display: flex;
   flex-direction: row;
   padding: 0.7rem 1rem 0.8rem 1rem;
-  width: fit-content;
   box-sizing: border-box;
   align-items: center;
+  width: 5rem;
+  justify-content: center;
 }
 
 .new-folder {
-  margin-top: 0.1rem;
-  display: inline-block;
+  margin: 0.1rem 0 0 0.5rem;
+  display: none;
   overflow-wrap: break-word;
   font-family: 'Poppins';
   font-weight: 500;
@@ -1548,19 +1584,19 @@ body {
   color: #FFFFFF;
 }
 
-.folder-add {
-  margin: 0 0.4rem 0.1rem 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 1.3rem;
-  height: 1.3rem;
-  box-sizing: border-box;
-}
+
 
 .folder-add-195 {
-  width: 1.3rem;
-  height: 1.3rem;
+  width: 1.5rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.folder-add-195 img{
+  width: 1.5rem;
+height: 1.5rem;
 }
 
 .search-normal-199 {
@@ -1742,24 +1778,4 @@ body {
 }
 
 
-@media (min-width: 500px){
-  .nav-bar {
-    background: #121212;
-    position: relative;
-    margin-right: 2.5rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2.5rem 0 18.4rem 0;
-    width: 10rem;
-  }
-  .nav-bar > .logo > .droppex
-   /* .nav-bar > .upload-button > .new-folder  */
-  {
-    display: none;
-  }
-  .nav-bar > .upload-button {
-    margin-inline: 0;
-  }
-  
-}
+
