@@ -501,10 +501,15 @@ body {
   justify-content: center;
 }
 
-.nav-bar:hover .storage .gb-100-gb-tiny{
+.nav-bar:hover .storageCircleOutline .b{
+  opacity: 1;
+
+}
+
+.nav-bar:hover .storageCircleOutline .gb-100-gb-tiny{
   opacity: 0;
 }
-.nav-bar:hover .storage .gb-100-gb{
+.nav-bar:hover .storageCircleOutline .gb-100-gb{
   opacity: 1;
 }
 
@@ -1590,6 +1595,8 @@ body {
   font-weight: 700;
   font-size: 1.1rem;
   color: var(--droppex-color-styleprimary-blue, #57ACDC);
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }
 
 .gb-100-gb {
