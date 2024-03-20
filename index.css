@@ -132,7 +132,9 @@ body {
   width: 0.5rem;
   height: 0.5rem;
 }
-
+.mb-2{
+  margin-bottom: 1rem;
+}
 .nav-bar {
   background: #121212;
   position: absolute;
@@ -146,10 +148,13 @@ body {
   transition: all 0.4s ease;
   z-index: 50;
 }
-.toggle-navbar-icon{
+.toggle-navbar-icon,.toggle-navbar-backarrow{
   filter: invert(1);
-  width: 1.5rem;
+  width: 1.2rem;
   cursor: pointer;
+}
+.toggle-navbar-backarrow{
+  margin-top: -1.5rem;
 }
 .checkbox,
 .checkbox-12,
@@ -868,6 +873,9 @@ body {
 .nav-bar:hover .gb-100-gb,
 .nav-bar:hover .storageCircleOutline .gb-100-gb {
   opacity: 1;
+}
+.nav-bar:hover .toggle-navbar-backarrow{
+  display: none;
 }
 
 .nav-bar:hover .storage-text,
