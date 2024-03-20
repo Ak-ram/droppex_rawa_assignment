@@ -135,7 +135,7 @@ body {
 
 .nav-bar {
   background: #121212;
-  position: relative;
+  position: absolute;
   margin-right: 2.5rem;
   display: flex;
   flex-direction: column;
@@ -266,9 +266,9 @@ body {
     height: 0.3rem !important;
   }
 
-  .nav-bar:hover {
+  /* .nav-bar:hover {
     position: absolute;
-  }
+  } */
 
   .no-item-selected,
   .line-4 {
