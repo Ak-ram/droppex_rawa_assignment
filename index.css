@@ -179,11 +179,11 @@ body {
   transition: margin 0.3s ease;
 }
 .toggle-navbar-backarrow{
-  margin-top: -1.5rem 
+  margin-top: -1.5rem
 }
 .nav-bar:hover .toggle-navbar-backarrow{
   margin: -1.5rem auto 0 1rem
-  
+
 }
 .checkbox,
 .checkbox-12,
@@ -254,10 +254,10 @@ body {
     padding-inline: 0.5rem !important;
   }
   .container-99 .drag-and-drop {
-    order: 20 !important; 
+    order: 20 !important;
     border: none !important;
 
- 
+
   }
   .nav-bar {
     margin-right: 0;
@@ -287,7 +287,7 @@ body {
 }
 
 @media (max-width: 550px) {
- 
+
   img.cloud-cross {
     width: 1.3rem !important;
     height: 1.3rem !important;
@@ -809,7 +809,7 @@ body {
   white-space: nowrap;
   transition: opacity 0.3s ease;
   font: 500 1rem "Poppins";
-  
+
 }
 
 .folder-add-195 {
