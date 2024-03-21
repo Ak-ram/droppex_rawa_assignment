@@ -32,6 +32,11 @@
   right: 1rem;
   top: 5px;
   cursor: pointer;
+  z-index: 2;
+  border-radius: 6px;
+  background: #181818;
+  border: 1px solid #3d3939;
+  padding: .3rem .5rem;
 }
 
 /* Styles for Arabic content */
