@@ -205,7 +205,7 @@
 }
 
 /* Media query for screen widths up to 1000px */
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   /* Adjust layout of navigation bar */
   .nav-bar {
     margin-right: 0;
@@ -213,6 +213,18 @@
   }
   .nav-bar:hover .droppex {
     left: 6rem;
+  }
+  .nav-bar:hover .iconbox {
+    transform: translate(-3rem, 5px);
+  }
+}
+
+/* Media query for screen widths up to Infinity */
+@media (min-width: 1201px) {
+  /* Adjust layout of navigation bar */
+  
+  .nav-bar:hover .droppex {
+    left: 5rem;
   }
   .nav-bar:hover .iconbox {
     transform: translate(-3rem, 5px);
