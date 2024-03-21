@@ -1,0 +1,40 @@
+/* 
+   This CSS file styles the content wrapper and its children,
+   providing functionality to toggle between English and Arabic content.
+*/
+
+/* Styles for the content wrapper */
+.content-wrapper {
+  display: flex;
+}
+
+/* Styles for the content */
+.content {
+  display: none;
+  width: 100%;
+}
+
+/* Display English or Arabic content based on radio button selection */
+#english:checked ~ * .content-wrapper [lang="en"],
+#arabic:checked ~ * .content-wrapper [lang="ar"] {
+  display: inline;
+}
+
+/* Hide the language radio button after click it*/
+#english:checked + label,
+#arabic:checked + label {
+  display: none;
+}
+
+/* Styles for the language toggle buttons */
+.lan {
+  position: absolute;
+  right: 1rem;
+  top: 5px;
+  cursor: pointer;
+}
+
+/* Styles for Arabic content */
+.content-wrapper [lang="ar"] {
+  direction: rtl;
+}
