@@ -1,6 +1,8 @@
+[Deployed](https://droppex-rawa-assignment.vercel.app/)🚀
 # Droppex Rawa Assignment <sup>[Design](./docs/design.png)</sup> <sup style="font-size: smaller;">[Requirement](https://github.com/Ak-ram/droppex_rawa_assignment/assets/69124951/aea489b0-3ed2-43da-a045-a347c6e98a2b)</sup>
 
 ![Layout](./docs/layout.png)
+> Created using Canva.
 
 ### 1. First Head
 The layout depicted above can be dissected into two primary sections:
@@ -19,8 +21,6 @@ The layout depicted above can be dissected into two primary sections:
 To gain a clearer understanding of the layout's structure and organizational hierarchy, please refer to the image provided below.
 
 ---
-
-> Created using Canva.
 
 ## 2. Assignment Requirements 📝
 
