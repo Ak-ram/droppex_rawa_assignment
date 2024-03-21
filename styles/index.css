@@ -1,9 +1,16 @@
+/* 
+   This CSS file sets global styles, defines utility classes, 
+   and styles specific elements.
+*/
+
+/* Reset default margin, padding, and box-sizing */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Body styles */
 body {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
@@ -12,29 +19,48 @@ body {
   background: #1e1e1e;
 }
 
-.hidden{
+/* Utility class to hide elements */
+.hidden {
   display: none;
 }
 
-.w-2{
+/* Utility class for setting width */
+.w-2 {
   width: 1.2rem;
 }
-.w-2{
+
+/* Utility class for setting height */
+.h-2 {
   height: 1.2rem;
 }
-.text-green{
-  color: rgb(31, 224, 31)
+
+/* Text color utility classes */
+.text-green {
+  color: rgb(31, 224, 31);
 }
-.text-rose{
-  color: rgb(233, 86, 49)
+.text-rose {
+  color: rgb(233, 86, 49);
 }
-.text-orange{
-  color: rgb(235, 165, 34)
-}
-.text-sm{
-  font-size: .8rem;
+.text-orange {
+  color: rgb(235, 165, 34);
 }
 
+/* Font size utility class */
+.text-sm {
+  font-size: 0.8rem;
+}
+
+/* Utility class for setting width to 100% */
+.w-full {
+  width: 100%;
+}
+
+/* Flexbox utility class for flex-grow: 1 */
+.flex-1 {
+  flex-grow: 1;
+}
+
+/* Flex container for table cells */
 .flex-td {
   display: inline-flex;
   align-items: center;
@@ -42,15 +68,18 @@ body {
   gap: 0.5rem;
   margin-top: 0.4rem;
 }
-.justify-center{
+
+/* Flexbox utility class for centering content */
+.justify-center {
   justify-content: center;
 }
 
-.filter_invert{
+/* Filter for inverting colors */
+.filter_invert {
   filter: invert(1);
 }
 
-
+/* Scrollbar styles */
 *::-webkit-scrollbar {
   width: 8px;
   height: 5px;
@@ -67,9 +96,11 @@ body {
 }
 
 *::-webkit-scrollbar-thumb:hover {
-  background: var(--droppex-color-style-dark-background, #0c0c0c);}
+  background: var(--droppex-color-style-dark-background, #0c0c0c);
+}
+
+/* Container styles */
 .top_container {
   display: flex;
-  /* height: 100vh; */
   width: 100vw;
 }
