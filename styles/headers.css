@@ -1,209 +1,228 @@
+/* 
+   This CSS file contains styles for various components, including buttons, icons, and containers.
+*/
 
-  .headers__selectFolderBtn {
-    margin: 0.9rem 0.6rem 0.9rem 0;
-    color: var(--droppex-color-stylegray, #939393);
-    align-items: center;
-    display: flex;
-    font: var(--heading-12-font-weight, 400) var(--heading-12-font-size, 0.8rem)
-      var(--heading-12-font-family, "Poppins");
-  }
-  
-  .headers__selectFolderBtn img {
-    width: 1.2rem !important;
-    margin-right: 4px;
-  }
-  
-  .line-4,
-  .line-5 {
-    background: #fafafa1a;
-    width: 0.1rem;
-    height: 2.9rem;
-  }
-  
-  .line-4 {
-    margin-right: 1.5rem;
-  }
-  
-  .options,
-  .component-2,
-  .component-5,
-  .component-6,
-  .options-6,
-  .show-hide {
-    margin: 0.9rem 1.1rem 0.8rem 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 1.3rem;
-    height: 1.3rem;
-    border-radius: 0.3rem;
-    box-sizing: border-box;
-  }
-  
-  .show-hide > img {
-    width: 1.5rem;
-  }
-  
-  .component-2 {
-    flex-direction: column;
-  }
-  
-  .component-5,
-  .component-6 {
-    flex-direction: row;
-  }
-  
-  .checkbox-13 {
-    margin: 0.2rem 1.3rem 0.2rem 0;
-  }
-  
-  .arrow-down {
-    margin: 0.6rem 0 0.5rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 1rem;
-    height: 0.4rem;
-    box-sizing: border-box;
-  }
-  
-  .checkbox-20,
-  .checkbox-23 {
-    margin: 0.3rem 1.5rem 0.3rem 0;
-  }
-  
+/* Select folder button styles */
+.headers__selectFolderBtn {
+  margin: 0.9rem 0.6rem 0.9rem 0;
+  color: var(--droppex-color-stylegray, #939393);
+  align-items: center;
+  display: flex;
+  font: var(--heading-12-font-weight, 400) var(--heading-12-font-size, 0.8rem) var(--heading-12-font-family, "Poppins");
+}
 
-  .mb-2{
-    margin-bottom: 1rem;
-  }
-  
-  
-  .checkbox,
-  .checkbox-12
-   {
-    border-radius: 0.3rem;
-    border: 0.1rem solid var(--droppex-color-stylegray, #939393);
-    background: var(--droppex-color-style-light-background, #1e1e1e);
-    margin-right: 1.3rem;
-    width: 1.3rem;
-    height: 1.3rem;
-  }
-  
-  .line-5 {
-    margin-right: 1.3rem;
-  }
-  
-  
-  
-  
-  .no-item-selected{
-    font-size: 0.8rem;
-    margin-right: .5rem;
-  }
-  
-  
-  .headers__wrapper {
-    margin-bottom: 1.2rem;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .search-bar {
-    border-radius: 0.6rem;
-    border: 0.1rem solid #939393;
-    background: #1e1e1e;
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 0.8rem 1rem 0.8rem 0.9rem;
-    width: 50%;
-    align-items: center;
-    box-sizing: border-box;
-  }
-  
-  .search-for-file-folder-shared-storehouse {
-    all: unset;
-    width: 90%;
-    color: var(--gray, #939393);
-  }
-  
-  .search-normal {
-    margin-right: 0.6rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 1.5rem;
-    height: 1.5rem;
-    box-sizing: border-box;
-    align-items: center;
-  }
-  
-  .storehousename {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    box-sizing: border-box;
-  }
-  
-  .drag-and-drop {
-    border-radius: 0.6rem;
-    border: 0.1rem dashed #939393;
-    background: #1e1e1e;
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    padding: 0.6rem 0 0.6rem 1rem;
-    width: 35%;
-    min-width: 1rem;
-    flex-shrink: 1;
-    box-sizing: border-box;
-    align-items: center;
-  }
-  
-  .drag-and-drop-text {
-    text-decoration-line: underline;
-    color: var(--droppex-color-styleprimary-blue, #57acdc);
-    font: 400 0.9rem/1.333 "Poppins";
-  }
-  
-  .drag-and-drop > div {
-    margin-right: 0.3rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 1.9rem;
-    height: 1.9rem;
-    box-sizing: border-box;
-    align-items: center;
-  }
-  
-  .cloud-cross {
-    width: 1.9rem;
-    height: 1.9rem;
-  }
-  
-  .search-bar-setting {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 1.5rem;
-    height: 1.5rem;
-    box-sizing: border-box;
-    align-items: center;
-  }
-  
-  .frame-3 {
-    border-radius: 0.3rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 1.5rem;
-    height: 1.5rem;
-    box-sizing: border-box;
-  }
-  
+/* Styles for icons within select folder button */
+.headers__selectFolderBtn img {
+  width: 1.2rem !important;
+  margin-right: 4px;
+}
+
+/* Styles for separating lines */
+.line-4,
+.line-5 {
+  background: #fafafa1a;
+  width: 0.1rem;
+  height: 2.9rem;
+}
+
+/* Additional margin for line-4 */
+.line-4 {
+  margin-right: 1.5rem;
+}
+
+/* Styles for various components */
+.options,
+.component-2,
+.component-5,
+.component-6,
+.options-6,
+.show-hide {
+  margin: 0.9rem 1.1rem 0.8rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1.3rem;
+  height: 1.3rem;
+  border-radius: 0.3rem;
+  box-sizing: border-box;
+}
+
+/* Styles for show-hide component */
+.show-hide > img {
+  width: 1.5rem;
+}
+
+/* Styles for component-2 */
+.component-2 {
+  flex-direction: column;
+}
+
+/* Styles for component-5 and component-6 */
+.component-5,
+.component-6 {
+  flex-direction: row;
+}
+
+/* Additional margin for checkbox-13 */
+.checkbox-13 {
+  margin: 0.2rem 1.3rem 0.2rem 0;
+}
+
+/* Styles for arrow-down component */
+.arrow-down {
+  margin: 0.6rem 0 0.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 1rem;
+  height: 0.4rem;
+  box-sizing: border-box;
+}
+
+/* Additional margin for checkbox-20 and checkbox-23 */
+.checkbox-20,
+.checkbox-23 {
+  margin: 0.3rem 1.5rem 0.3rem 0;
+}
+
+/* Utility class for margin-bottom */
+.mb-2 {
+  margin-bottom: 1rem;
+}
+
+/* Styles for checkboxes */
+.checkbox,
+.checkbox-12 {
+  border-radius: 0.3rem;
+  border: 0.1rem solid var(--droppex-color-stylegray, #939393);
+  background: var(--droppex-color-style-light-background, #1e1e1e);
+  margin-right: 1.3rem;
+  width: 1.3rem;
+  height: 1.3rem;
+}
+
+/* Additional margin for line-5 */
+.line-5 {
+  margin-right: 1.3rem;
+}
+
+/* Styles for no-item-selected text */
+.no-item-selected {
+  font-size: 0.8rem;
+  margin-right: 0.5rem;
+}
+
+/* Styles for headers wrapper */
+.headers__wrapper {
+  margin-bottom: 1.2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Styles for search bar */
+.search-bar {
+  border-radius: 0.6rem;
+  border: 0.1rem solid #939393;
+  background: #1e1e1e;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.8rem 1rem 0.8rem 0.9rem;
+  width: 50%;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+/* Styles for search input */
+.search-for-file-folder-shared-storehouse {
+  all: unset;
+  width: 90%;
+  color: var(--gray, #939393);
+}
+
+/* Styles for search-normal icon */
+.search-normal {
+  margin-right: 0.6rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+/* Styles for storehouse name */
+.storehousename {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+/* Styles for drag-and-drop area */
+.drag-and-drop {
+  border-radius: 0.6rem;
+  border: 0.1rem dashed #939393;
+  background: #1e1e1e;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  padding: 0.6rem 0 0.6rem 1rem;
+  width: 35%;
+  min-width: 1rem;
+  flex-shrink: 1;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+/* Styles for drag-and-drop text */
+.drag-and-drop-text {
+  text-decoration-line: underline;
+  color: var(--droppex-color-styleprimary-blue, #57acdc);
+  font: 400 0.9rem/1.333 "Poppins";
+}
+
+/* Styles for cloud-cross icon */
+.drag-and-drop > div {
+  margin-right: 0.3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 1.9rem;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+/* Styles for cloud-cross icon */
+.cloud-cross {
+  width: 1.9rem;
+  height: 1.9rem;
+}
+
+/* Styles for search-bar-setting icon */
+.search-bar-setting {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+/* Styles for frame-3 */
+.frame-3 {
+  border-radius: 0.3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  box-sizing: border-box;
+}
   .vector-59 {
     background: #939393;
     margin-top: 0.2rem;
